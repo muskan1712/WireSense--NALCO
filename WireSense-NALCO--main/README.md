@@ -1,27 +1,29 @@
 # WireSense – Automated Parameter Tuning for Consistent Wire Grade Production at NALCO
 
-**WireSense** is a comprehensive steel-mill toolkit designed to automate and optimize process parameters to ensure consistent wire-grade production at NALCO’s facilities. Developed as part of the Smart India Hackathon challenge, it leverages machine learning and generative modeling to monitor live operations, predict key material properties, and recommend optimal process adjustments. ([GitHub][1])
+**WireSense** is a comprehensive steel-mill toolkit designed to automate and optimize process parameters to ensure consistent wire-grade production at NALCO’s facilities. Developed as part of the Smart India Hackathon challenge, it leverages machine learning and generative modeling to monitor live operations, predict key material properties, and recommend optimal process adjustments.
 
 ---
 
 ## 🚀 Key Features
 
 * **Live Monitor**
-  Real-time sliding-window visualization of incoming process data and on-the-fly prediction of Ultimate Tensile Strength (UTS), Conductivity, and Elongation using pre-trained XGBoost models. ([GitHub][2])
+  Real-time sliding-window visualization of incoming process data and on-the-fly prediction of Ultimate Tensile Strength (UTS), Conductivity, and Elongation using pre-trained XGBoost models. 
 
 * **Reverse Predictor**
-  Inverse parameter estimation that maps user-defined product specifications back to 16 critical upstream process levers via a PyTorch-based Cycle-GAN generator. ([GitHub][3])
+  Inverse parameter estimation that maps user-defined product specifications back to 16 critical upstream process levers via a PyTorch-based Cycle-GAN generator. 
 
 * **Target Feature Recommender**
-  Gradient-descent optimization module identifying and ranking the top three process parameters to tweak for meeting desired material targets. ([GitHub][4])
+  Gradient-descent optimization module identifying and ranking the top three process parameters to tweak for meeting desired material targets. 
 
 ---
 
 ## 🎥 Demonstration & Documentation
 
-* **Presentation**: [`1723_TechTitans.pdf`](1723_TechTitans.pdf) outlines the problem statement and solution architecture. ([GitHub][1])
-* **Demo Video**: [`SIH_1723.mp4`](SIH_1723.mp4) showcases a live walkthrough of the toolkit. ([GitHub][1])
-* **Wire Rod Specifications**: [`WIRE_ROD_Specification.pdf`](WIRE_ROD_Specification.pdf) provides industry-standard parameters. ([GitHub][1])
+## 🎥 Demonstration & Documentation
+
+* 📊 **Project Presentation (PPT/PDF)**: [WireSense PPT.pdf`](./WireSense PPT.pdf) – Contains project overview, methodology, implementation, results, and future scope.
+
+* 📄 **Wire Rod Specifications**: [`WIRE_ROD_Specification.pdf`](./WIRE_ROD_Specification.pdf) – Provides industry-standard parameters.
 
 ---
 
@@ -35,8 +37,8 @@
 ### Installation
 
 ```bash
-git clone https://github.com/shivanshsinghal-22/WireSense-NALCO-.git
-cd WireSense-NALCO-
+git clone https://github.com/muskan1712/WireSense--NALCO.git
+cd WireSense--NALCO
 pip install -r requirements.txt
 ```
 
@@ -71,8 +73,6 @@ WireSense-NALCO-/
 │   └── 03_Target_Feature_Recommender.py
 ├── main.py                       # Streamlit app entrypoint :contentReference[oaicite:8]{index=8}
 ├── requirements.txt              # Python dependencies
-├── 1723_TechTitans.pdf           # Problem statement & solution overview
-├── SIH_1723.mp4                  # Demo video
 └── WIRE_ROD_Specification.pdf    # Industry specs
 ```
 
@@ -89,11 +89,11 @@ Contributions are welcome! Feel free to open an issue or submit a pull request f
 This project currently does not specify a license. Please contact the maintainer for licensing inquiries.
 
 ---
-
+<!-- 
 **Author**: Shivansh Singhal ([@shivanshsinghal-22](https://github.com/shivanshsinghal-22))
 
-[1]: https://github.com/shivanshsinghal-22/WireSense-NALCO-/tree/main "GitHub - shivanshsinghal-22/WireSense-NALCO-: Automated parameter tuning for consistent wire grade production at NALCO"
-[2]: https://raw.githubusercontent.com/shivanshsinghal-22/WireSense-NALCO-/main/pages/01_Live_Monitor.py "raw.githubusercontent.com"
+[1]: https://github.com/shivanshsinghal-22/WireSense-NALCO-/tree/main "GitHub - shivanshsinghal-22/WireSense-NALCO-: Automated parameter tuning for consistent wire grade production at NALCO" -->
+<!-- [2]: https://raw.githubusercontent.com/shivanshsinghal-22/WireSense-NALCO-/main/pages/01_Live_Monitor.py "raw.githubusercontent.com"
 [3]: https://raw.githubusercontent.com/shivanshsinghal-22/WireSense-NALCO-/main/pages/02_Intial_Parameter_Prediction.py "raw.githubusercontent.com"
 [4]: https://raw.githubusercontent.com/shivanshsinghal-22/WireSense-NALCO-/main/pages/03_Target_Feature_Recommender.py "raw.githubusercontent.com"
-[5]: https://raw.githubusercontent.com/shivanshsinghal-22/WireSense-NALCO-/main/main.py "raw.githubusercontent.com"
+[5]: https://raw.githubusercontent.com/shivanshsinghal-22/WireSense-NALCO-/main/main.py "raw.githubusercontent.com" -->
