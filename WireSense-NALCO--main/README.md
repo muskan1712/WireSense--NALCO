@@ -1,6 +1,6 @@
 # WireSense – Automated Parameter Tuning for Consistent Wire Grade Production at NALCO
 
-**WireSense** is a comprehensive steel-mill toolkit designed to automate and optimize process parameters to ensure consistent wire-grade production at NALCO’s facilities. Developed as part of the Smart India Hackathon challenge, it leverages machine learning and generative modeling to monitor live operations, predict key material properties, and recommend optimal process adjustments.
+**WireSense** is a comprehensive steel-mill toolkit designed to automate and optimize process parameters to ensure consistent wire-grade production at NALCO’s facilities. Developed as part of the Smart India Hackathon challenge, it leverages machine learning and generative modeling to monitor live operations and predict key material properties.
 
 ---
 
@@ -12,16 +12,13 @@
 * **Reverse Predictor**
   Inverse parameter estimation that maps user-defined product specifications back to 16 critical upstream process levers via a PyTorch-based Cycle-GAN generator. 
 
-* **Target Feature Recommender**
-  Gradient-descent optimization module identifying and ranking the top three process parameters to tweak for meeting desired material targets. 
-
 ---
 
 ## 🎥 Demonstration & Documentation
 
 ## 🎥 Demonstration & Documentation
 
-* 📊 **Project Presentation (PPT/PDF)**: [WireSense PPT.pdf`](./WireSense PPT.pdf) – Contains project overview, methodology, implementation, results, and future scope.
+* 📊 **Project Presentation (PPT/PDF)**: [WireSense%20PPT.pdf`](./WireSense PPT.pdf) – Contains project overview, methodology, implementation, results, and future scope.
 
 * 📄 **Wire Rod Specifications**: [`WIRE_ROD_Specification.pdf`](./WIRE_ROD_Specification.pdf) – Provides industry-standard parameters.
 
@@ -48,7 +45,7 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-Use the **Live Monitor**, **Reverse Predictor**, or **Target Feature Recommender** buttons on the home page to navigate between modules. ([GitHub][5])
+Use the **Live Monitor**, **Reverse Predictor**, or **Target Feature Recommender** buttons on the home page to navigate between modules. 
 
 ---
 
@@ -74,6 +71,7 @@ WireSense-NALCO-/
 ├── main.py                       # Streamlit app entrypoint :contentReference[oaicite:8]{index=8}
 ├── requirements.txt              # Python dependencies
 └── WIRE_ROD_Specification.pdf    # Industry specs
+└── WireSense PPT.pdf             # Project presentation
 ```
 
 ---
