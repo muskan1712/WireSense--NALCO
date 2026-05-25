@@ -18,7 +18,7 @@
 
 ## 🎥 Demonstration & Documentation
 
-* 📊 **Project Presentation (PPT/PDF)**: [WireSense%20PPT.pdf`](./WireSense PPT.pdf) – Contains project overview, methodology, implementation, results, and future scope.
+* 📊 **Project Presentation (PPT/PDF)**: [WireSense PPT.pdf`](./WireSense%20PPT.pdf) – Contains project overview, methodology, implementation, results, and future scope.
 
 * 📄 **Wire Rod Specifications**: [`WIRE_ROD_Specification.pdf`](./WIRE_ROD_Specification.pdf) – Provides industry-standard parameters.
 
